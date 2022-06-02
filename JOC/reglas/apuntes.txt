@@ -1,0 +1,32 @@
+ENUMS:
+
+Dir Down, Right, Up, Left
+BonusType Bread, Seed, Leaf, None 
+NutrientType Carbohydrate, Protein, Lipid 
+CellType Soil, Water
+AntType Queen, Soldier, Worker
+
+STRUCTS:
+
+Pos -> int i, j;
+Cell -> CellType type;
+        BonusType bonus;
+        int id;
+Ant -> AntType type;
+       int id;
+       int player;
+       Pos pos;
+       vector<int> reserve;
+       BonusType bonus;
+       int life;
+
+ACTIONS:
+
+move (int id, Dir dir);
+take (int id);
+leave (int id);
+lay (int id, Dir dir, AntType t);
+
+me()?
+
+
