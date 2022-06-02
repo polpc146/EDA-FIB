@@ -1,3 +1,3 @@
 # EDA-FIB
 
-Exercicis de jutge
+Exercicis de jutge i el joc
